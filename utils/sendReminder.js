@@ -1,4 +1,3 @@
-const Speaker = require('../models/Speaker');
 const sendEmail = require('./sendEmail');
 
 const intervals = [24, 12, 6, 2, 0.5]; // in hours
