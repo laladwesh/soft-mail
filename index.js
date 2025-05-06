@@ -1,8 +1,5 @@
 const cron = require('node-cron');
 const sendReminders = require('./utils/sendReminder.js');
-const dbConnect = require('./lib/mongodb');
-
-dbConnect();
 
 // Run every minute
 cron.schedule('* * * * *', async () => {
